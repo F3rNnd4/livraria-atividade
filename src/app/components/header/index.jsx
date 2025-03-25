@@ -1,6 +1,13 @@
 import styles from './header.module.css';
 
 const Header = () => {
+
+    // Carrinho simulado
+    const cartItems = [
+        { id: 2, title: "Conexões Invisíveis", quantity: 1, price: 39.9 },
+        { id: 5, title: "A Linguagem Secreta", quantity: 1, price: 42.9 },
+    ];
+
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
