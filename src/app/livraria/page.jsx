@@ -167,7 +167,11 @@ export default function Home() {
                     </a>
                 </div>
 
-                <FeaturedBooks bookAuthor={'Ali Hazelwood'} bookPrice={'45,00'} bookTag={'Roamnce'} bookTitle={'A Hipótese do Amor'} cover={'https://m.media-amazon.com/images/I/71dsFCsDGYL._UF894,1000_QL80_.jpg'} textAlt={'A Hipótese do Amor Capa'} />
+                <FeaturedBooks bookAuthor={'Ali Hazelwood'} bookPrice={'45,00'} bookTag={'Romance'} bookTitle={'A Hipótese do Amor'} cover={'https://m.media-amazon.com/images/I/71dsFCsDGYL._UF894,1000_QL80_.jpg'} textAlt={'A Hipótese do Amor Capa'} />
+
+                <FeaturedBooks bookAuthor={'Ali Hazelwood'} bookPrice={'39,45'} bookTag={'Romance'} bookTitle={'A Razão do Amor'} cover={'https://m.media-amazon.com/images/I/81bkmJnflPL.jpg'} textAlt={'A Razão do Amor Capa'} />
+
+                <FeaturedBooks bookAuthor={'Lynn Painter'} bookPrice={'47,90'} bookTag={'Romance'} bookTitle={'Melhor do que nos filmes'} cover={'https://m.media-amazon.com/images/I/61y5iLUKS3L._AC_UF1000,1000_QL80_.jpg'} textAlt={'Melhor do que nos filmes Capa'} />
             </section>
 
             {/* CATEGORIES SECTION */}
